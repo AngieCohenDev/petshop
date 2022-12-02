@@ -1,0 +1,126 @@
+body{
+    background: #1B1B1B;
+}
+
+.imagen{
+    position: absolute;
+    width: 281px;
+    height: 747px;
+    left: -5px;
+    top: 85px;
+}
+/*
+.box-contenedor{   
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1337px;
+    height: 100px;
+    left: -29px;
+    top: -15px;
+
+    background: linear-gradient(90deg, #C72BAE 0%, #E834D6 100%);
+    border: 2px solid #BA2BC7;
+    border-radius: 10px;
+}
+*/
+.house{
+    position: absolute;
+    width: 52px;
+    height: 50px;
+    left: 12px;
+    top: 18px;
+}
+
+.vet{
+    position: absolute;
+    width: 46px;
+    height: 49px;
+    left: 443px;
+    top: 23px;
+}
+.perfil{
+    position: absolute;
+    width: 50px;
+    height: 52px;
+    left: 890px;
+    top: 17px;
+}
+.titulo{
+    position: absolute;
+    width: 289px;
+    height: 44px;
+    left: 80px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.veterinaria{
+    position: absolute;
+    width: 235px;
+    height: 47px;
+    left: 504px;
+    top: -11px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.user{
+    position: absolute;
+width: 340px;
+height: 35px;
+left: 700px;
+top: -18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.cliente{
+    position: absolute;
+width: 168px;
+height: 162px;
+left: 359px;
+top: 187px;
+}
+.box-cliente{
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 235px;
+    left: 293px;
+    top: 126px;
+
+    background: rgba(217, 217, 217, 0.1);
+    border: 5px solid #C72BA5;
+    border-radius: 30px;
+}
+.boton-cliente{
+    position: absolute;
+    width: 300px;
+    height: 52px;
+    left: 311px;
+    top: 140px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}

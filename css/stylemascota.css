@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+body{  
+background: #1B1B1B;
+}
+.portada-mascota{
+    position: absolute;
+    width: 307px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+}
+.titulo{
+    position: absolute;
+    width: 343px;
+    height: 52px;
+    left: 524px;
+    top: 34px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+}
+.mascota{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 344px;
+    top: 111px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    
+    color: #F5F5F5;    
+}
+.name{
+    position: absolute;
+    width: 142px;
+    height: 28px;
+    left: 344px;
+    top: 168px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;
+}
+.box-name{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 344px;
+    top: 240px;
+
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px
+}
+.edad{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 659px;
+    top: 168px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;
+}
+.box-edad{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 659px;
+    top: 240px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;   
+}
+.raza{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 344px;
+    top: 303px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;   
+}
+.box-raza{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 344px;
+    top: 375px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;   
+}
+.sexo{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 657px;
+    top: 303px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;
+}
+.box-sexo{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 661px;
+    top: 375px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;   
+}
+.nacimiento{
+    position: absolute;
+width: 404px;
+height: 28px;
+left: 344px;
+top: 441px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #F5F5F5;
+}
+.box-nacimiento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 344px;
+    top: 512px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;   
+}
+.color{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 661px;
+    top: 441px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;    
+}
+.box-color{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 659px;
+    top: 512px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+.chip{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 344px;
+    top: 580px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;   
+}
+.box-chip{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 344px;
+    top: 650px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+.castrado{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 659px;
+    top: 580px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;   
+}
+.box-castrado{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 661px;
+    top: 650px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;    
+}
+.adoptado{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 344px;
+    top: 732px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #F5F5F5;
+
+}
+.box-adoptado{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 344px;
+    top: 802px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+.reproductor{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 659px;
+    top: 732px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;   
+}
+.box-reproductor{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 69px;
+    left: 657px;
+    top: 802px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+.guardar{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 207px;
+    height: 68px;
+    left: 533px;
+    top: 896px;
+    
+    background: linear-gradient(90deg, #BA2BC7 10.63%, rgba(217, 52, 232, 0.77) 110.63%);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;   
+    text-align: center;
+    
+}
+

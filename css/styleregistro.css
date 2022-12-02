@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+body{  
+background: #1B1B1B;
+
+}
+.img-registro{
+    position: absolute;
+    width: 225px;
+    height: 1045px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+h2{
+    position: absolute;
+    width: 343px;
+    height: 52px;
+    left: 459px;
+    top: 69px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+.name{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 251px;
+    top: 171px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #F5F5F5;
+}
+.box-name{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 284px;
+    height: 69px;
+    left: 251px;
+    top: 246px;
+
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+.apellido{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 624px;
+    top: 171px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;
+}
+.box-apellido{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 284px;
+    height: 69px;
+    left: 624px;
+    top: 246px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+.f-nacimiento{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 251px;
+    top: 311px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;
+    ;
+}
+.box-nacimiento{
+    
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 287px;
+    height: 69px;
+    left: 251px;
+    top: 385px;
+
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+
+.dni{
+
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 640px;
+    top: 311px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #F5F5F5;
+}
+
+.box-dni{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 284px;
+    height: 69px;
+    left: 624px;
+    top: 385px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+.direccion{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 251px;
+    top: 441px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #F5F5F5;
+}
+.box-direccion{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 287px;
+    height: 69px;
+    left: 251px;
+    top: 515px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+
+}
+
+.localidad{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 624px;
+    top: 441px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #F5F5F5;
+    }
+.box-localidad{
+    box-sizing: border-box;
+
+position: absolute;
+width: 284px;
+height: 69px;
+left: 624px;
+top: 515px;
+
+background: rgba(217, 217, 217, 0.1);
+border: 3px solid #BA2BC7;
+border-radius: 10px;
+}
+
+.tel{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 251px;
+    top: 570px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;
+}
+.box-tel{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 287px;
+    height: 69px;
+    left: 251px;
+    top: 647px;
+
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+
+.correo{
+    position: absolute;
+width: 404px;
+height: 28px;
+left: 624px;
+top: 570px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #F5F5F5;
+}
+.box-correo{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 284px;
+    height: 69px;
+    left: 624px;
+    top: 647px;
+    
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #BA2BC7;
+    border-radius: 10px;
+}
+.password{
+   
+position: absolute;
+width: 404px;
+height: 28px;
+left: 262px;
+top: 710px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #F5F5F5;;
+}
+.box-contraseña{
+    box-sizing: border-box;
+
+position: absolute;
+width: 287px;
+height: 69px;
+left: 251px;
+top: 780px;
+
+background: rgba(217, 217, 217, 0.1);
+border: 3px solid #BA2BC7;
+border-radius: 10px;
+}
+
+.contraseña{
+    position: absolute;
+    width: 404px;
+    height: 28px;
+    left: 616px;
+    top: 710px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #F5F5F5;
+}
+.box-confirmar{
+    box-sizing: border-box;
+
+position: absolute;
+width: 284px;
+height: 69px;
+left: 624px;
+top: 780px;
+
+background: rgba(217, 217, 217, 0.1);
+border: 3px solid #BA2BC7;
+border-radius: 10px;
+}
+
+.boton-registro{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 260px;
+    height: 68px;
+    left: 435px;
+    top: 872px;
+    
+    background: linear-gradient(90deg, #BA2BC7 0%, rgba(217, 52, 232, 0.77) 100%);
+    border: 3px solid #BA2BC7;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.inicio-cuenta{
+    position: absolute;
+    width: 385px;
+    height: 44px;
+    left: 394px;
+    top: 920px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;   
+     
+}
+.boton-inicio{
+    position: absolute;
+    width: 385px;
+    height: 44px;
+    left: 615px;
+    top: 953px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF; 
+      
+}
