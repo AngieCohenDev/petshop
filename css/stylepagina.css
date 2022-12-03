@@ -1,14 +1,15 @@
-body{
+body {
     background: #1B1B1B;
 }
 
-.imagen{
+.imagen {
     position: absolute;
     width: 281px;
     height: 747px;
     left: -5px;
     top: 85px;
 }
+
 /*
 .box-contenedor{   
     box-sizing: border-box;
@@ -24,7 +25,7 @@ body{
     border-radius: 10px;
 }
 */
-.house{
+.house {
     position: absolute;
     width: 52px;
     height: 50px;
@@ -32,21 +33,23 @@ body{
     top: 18px;
 }
 
-.vet{
+.vet {
     position: absolute;
     width: 46px;
     height: 49px;
     left: 443px;
     top: 23px;
 }
-.perfil{
+
+.perfil {
     position: absolute;
     width: 50px;
     height: 52px;
     left: 890px;
     top: 17px;
 }
-.titulo{
+
+.titulo {
     position: absolute;
     width: 289px;
     height: 44px;
@@ -60,7 +63,8 @@ body{
     line-height: 44px;
     color: #FFFFFF;
 }
-.veterinaria{
+
+.veterinaria {
     position: absolute;
     width: 235px;
     height: 47px;
@@ -75,29 +79,32 @@ body{
 
     color: #FFFFFF;
 }
-.user{
-    position: absolute;
-width: 340px;
-height: 35px;
-left: 700px;
-top: -18px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-
-color: #FFFFFF;
-}
-.cliente{
+.user {
     position: absolute;
-width: 168px;
-height: 162px;
-left: 359px;
-top: 187px;
+    width: 340px;
+    height: 35px;
+    left: 700px;
+    top: -18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
 }
-.box-cliente{
+
+.cliente {
+    position: absolute;
+    width: 168px;
+    height: 162px;
+    left: 359px;
+    top: 187px;
+}
+
+.box-cliente {
     box-sizing: border-box;
     position: absolute;
     width: 300px;
@@ -109,7 +116,8 @@ top: 187px;
     border: 5px solid #C72BA5;
     border-radius: 30px;
 }
-.boton-cliente{
+
+.boton-cliente {
     position: absolute;
     width: 300px;
     height: 52px;
